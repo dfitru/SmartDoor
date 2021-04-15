@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoorManagementSys.MVC", "SmartDoorManagementSys.MVC\SmartDoorManagementSys.MVC.csproj", "{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Data", "SmartDoor.Data\SmartDoor.Data.csproj", "{F69EC09B-BB65-4C3B-9619-BD6A27DA786E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Models", "SmartDoor.Models\SmartDoor.Models.csproj", "{B034919F-8803-4FF5-BCF4-F995DCFAAEE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Services", "SmartDoor.Services\SmartDoor.Services.csproj", "{1E01C217-BDFD-4BDD-A0B0-EEAC769C142D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69EC09B-BB65-4C3B-9619-BD6A27DA786E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69EC09B-BB65-4C3B-9619-BD6A27DA786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69EC09B-BB65-4C3B-9619-BD6A27DA786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69EC09B-BB65-4C3B-9619-BD6A27DA786E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B034919F-8803-4FF5-BCF4-F995DCFAAEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B034919F-8803-4FF5-BCF4-F995DCFAAEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B034919F-8803-4FF5-BCF4-F995DCFAAEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B034919F-8803-4FF5-BCF4-F995DCFAAEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E01C217-BDFD-4BDD-A0B0-EEAC769C142D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E01C217-BDFD-4BDD-A0B0-EEAC769C142D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E01C217-BDFD-4BDD-A0B0-EEAC769C142D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E01C217-BDFD-4BDD-A0B0-EEAC769C142D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

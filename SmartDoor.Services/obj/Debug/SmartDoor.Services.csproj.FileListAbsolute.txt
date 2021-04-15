@@ -1,0 +1,15 @@
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\SmartDoor.Services.dll.config
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\SmartDoor.Services.dll
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\SmartDoor.Services.pdb
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\EntityFramework.dll
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\EntityFramework.xml
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.csproj.CoreCompileInputs.cache
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.csproj.CopyComplete
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.dll
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.pdb
