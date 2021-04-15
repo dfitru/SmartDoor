@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoorManagementSys.MVC", "SmartDoorManagementSys.MVC\SmartDoorManagementSys.MVC.csproj", "{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C240C31-DA80-4BF1-90D2-F7BC46D8BA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8566E06-548B-41B1-ACFC-4A937DC23FC7}
+	EndGlobalSection
+EndGlobal
