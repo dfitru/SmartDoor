@@ -18,6 +18,5 @@ namespace SmartDoor.Data
         [Required]
         public string  Company { get; set; }
 
-
     }
 }
