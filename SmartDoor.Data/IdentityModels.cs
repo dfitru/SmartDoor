@@ -34,6 +34,7 @@ namespace SmartDoor.Data
         public DbSet<KeyOwner> KeyOwners { get; set; }
         public DbSet<SmartDoor> SmartDoors { get; set; }
        // public DbSet<SmartKey> SmartKeys { get; set; }
+       public DbSet<Building> Buildings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
