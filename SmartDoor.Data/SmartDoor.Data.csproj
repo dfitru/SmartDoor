@@ -55,7 +55,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="KeyOwner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartDoor.cs" />
+    <Compile Include="SmartKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
