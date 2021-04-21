@@ -15,5 +15,8 @@ namespace SmartDoor.Data
         public string BuildingName { get; set; }
         [Required]
         public string Address { get; set; }
+
+        public virtual ICollection<SmartDoor> SmartKeys { get; set; }
+        
     }
 }

@@ -20,8 +20,10 @@ namespace SmartDoor.Data
         public bool IsRoomInRoom { get; set; }
       
         [ForeignKey(nameof(Building))]
-        public int BuildingId { get; set; }
+        public int? BuildingId { get; set; }
         public virtual Building Building { get; set; }
+        public virtual ICollection<SmartKey> SmartKeys { get; set; }
+
 
     }
 }
