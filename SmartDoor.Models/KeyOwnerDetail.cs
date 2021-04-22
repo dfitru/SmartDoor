@@ -1,24 +1,25 @@
-﻿using System;
+﻿using SmartDoor.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartDoor.Data
+namespace SmartDoor.Models
 {
-    public class KeyOwner
+    public class KeyOwnerDetail
     {
         [Key]
-        public int OwenerId { get; set; }
+        public int KeyOwenerId { get; set; }
         [Required]
-        [Display(Name ="First Name")]
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
         [Required]
-        [Display(Name ="Last Name")]
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
         [Required]
-        [Display(Name ="Full Name")]
+        [Display(Name = "Full Name")]
         public string FullName
         {
             get
@@ -27,8 +28,8 @@ namespace SmartDoor.Data
             }
         }
         [Required]
-        public string  Company { get; set; }
-       // public virtual SmartKey SmartKeys { get; set; }
+        public string Company { get; set; }
+        // public virtual SmartKey SmartKeys { get; set; }
         public ICollection<SmartKey> SmartKeys { get; set; }
 
     }

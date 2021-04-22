@@ -54,11 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KeyOwnerServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartDoor.Data\SmartDoor.Data.csproj">
+      <Project>{f69ec09b-bb65-4c3b-9619-bd6a27da786e}</Project>
+      <Name>SmartDoor.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartDoor.Models\SmartDoor.Models.csproj">
+      <Project>{b034919f-8803-4ff5-bcf4-f995dcfaaee4}</Project>
+      <Name>SmartDoor.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

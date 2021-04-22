@@ -13,12 +13,9 @@ namespace SmartDoor.Data
         [Key]
         public int KeyId { get; set; }
         [Required]
-        public int DoorId { get; set; }
+        public Guid OwnerID { get; set; }
         [Required]
-        [StringLength(25,ErrorMessage ="Key Name cannot be longerthan 50 ca")]
-        public string DoorName { get; set; }
-        [Required]
-        public int RoomNumber { get; set; }
+        public string Name { get; set; }
         [Required]
         public bool KeyRecived { get; set; }
         [Required]
@@ -26,14 +23,12 @@ namespace SmartDoor.Data
         [DisplayFormat(DataFormatString ="{0:yyy-MM-dd}")]
         public DateTime CreateDate { get; set; }
         public DateTime ModifiedDate { get; set; }
-        [ForeignKey(nameof(Building))]
-        public int? BuildingId { get; set; }
-        public virtual Building Building { get; set; }
+
         [ForeignKey(nameof(KeyOwner))]
-        public int? OwnerId { get; set; }
+        public int? KeyOwnerId { get; set; }
         public virtual KeyOwner KeyOwner { get; set; }
         [ForeignKey(nameof(SmartDoor))]
-        public int? RoomId { get; set; }
+        public int? DoorId { get; set; }
         public virtual SmartDoor SmartDoor { get; set; }
     }
 }

@@ -13,3 +13,4 @@ C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\ob
 C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.csproj.CopyComplete
 C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.dll
 C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.pdb
+C:\ElevenfiftyProjects\RedBadge\SmartDoorManagementSys.MVC\SmartDoor.Services\obj\Debug\SmartDoor.Services.csprojAssemblyReference.cache
