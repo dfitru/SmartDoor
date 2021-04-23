@@ -9,11 +9,11 @@ namespace SmartDoor.Services
 {
     public class KeyOwnerServices
     {
-        public bool CreateOwner(KeyOwnerCreate model)
-        {
-            var entity= 
-                new 
-        }
+        //public bool CreateOwner(KeyOwnerCreate model)
+        //{
+        //    var entity= 
+        //        new 
+        //}
 
     }
 }

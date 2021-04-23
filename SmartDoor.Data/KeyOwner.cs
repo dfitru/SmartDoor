@@ -10,15 +10,13 @@ namespace SmartDoor.Data
     public class KeyOwner
     {
         [Key]
-        public int OwenerId { get; set; }
+        public int KeyOwenerId { get; set; }
         [Required]
-        [Display(Name ="First Name")]
+        [Display(Name = "First Name"), MinLength(2, ErrorMessage = "please enter at lest 2 characters"), MaxLength(100, ErrorMessage = "There are too many characters")]
         public string FirstName { get; set; }
         [Required]
-        [Display(Name ="Last Name")]
+        [Display(Name = "Last Name"), MinLength(2, ErrorMessage = "please enter at lest 2 characters"), MaxLength(100, ErrorMessage = "There are too many characters")]
         public string LastName { get; set; }
-        [Required]
-        [Display(Name ="Full Name")]
         public string FullName
         {
             get
@@ -27,8 +25,9 @@ namespace SmartDoor.Data
             }
         }
         [Required]
-        public string  Company { get; set; }
-       // public virtual SmartKey SmartKeys { get; set; }
+        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
+        public string Company { get; set; }
+        // public virtual SmartKey SmartKeys { get; set; }
         public ICollection<SmartKey> SmartKeys { get; set; }
 
     }

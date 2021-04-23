@@ -57,13 +57,23 @@
     <Compile Include="Building.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="KeyOwner.cs" />
+    <Compile Include="Migrations\202104230240522_FirstMigration.cs" />
+    <Compile Include="Migrations\202104230240522_FirstMigration.Designer.cs">
+      <DependentUpon>202104230240522_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmartDoor.cs" />
+    <Compile Include="Door.cs" />
     <Compile Include="SmartKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202104230240522_FirstMigration.resx">
+      <DependentUpon>202104230240522_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

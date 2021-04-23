@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 
 namespace SmartDoor.Data
 {
-   public class SmartDoor
+   public class Door
     {
         [Key]
         public int DoorId { get; set; }
         [Required]
+        [MinLength(4, ErrorMessage = "Please enter at least 2 characters.")]
+        [MaxLength(10, ErrorMessage = "There are too many characters in this field.")]
         public string DoorName { get; set; }
         [Required]
         public int FloorNumber { get; set; }

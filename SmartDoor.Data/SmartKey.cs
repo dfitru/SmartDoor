@@ -15,6 +15,8 @@ namespace SmartDoor.Data
         [Required]
         public Guid OwnerID { get; set; }
         [Required]
+        [MinLength(4, ErrorMessage = "Please enter at least 2 characters.")]
+        [MaxLength(10, ErrorMessage = "There are too many characters in this field.")]
         public string Name { get; set; }
         [Required]
         public bool KeyRecived { get; set; }
@@ -29,6 +31,6 @@ namespace SmartDoor.Data
         public virtual KeyOwner KeyOwner { get; set; }
         [ForeignKey(nameof(SmartDoor))]
         public int? DoorId { get; set; }
-        public virtual SmartDoor SmartDoor { get; set; }
+        public virtual Door SmartDoor { get; set; }
     }
 }
