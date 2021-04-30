@@ -22,12 +22,15 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("KeyOwners", "Index", "KeyOwner")</li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Buildings", "Index", "Building")</li>
+                        <li>@Html.ActionLink("SmartDoors", "Index", "SmartDoor")</li>
+                        <li>@Html.ActionLink("SmartKeys", "Index", "SmartKey")</li>
+                    }
                     <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Buildings", "Contact", "Building")</li>
-                    <li>@Html.ActionLink("SmartDoors", "Contact", "SmartDoor")</li>
-                    <li>@Html.ActionLink("KeyOwners", "Contact", "KeyOwner")</li>
-                    <li>@Html.ActionLink("SmartKeys", "Contact", "SmartKeys")</li>
-                </ul>
+                    </ul>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>

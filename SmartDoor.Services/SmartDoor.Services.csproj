@@ -54,8 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuildingServices.cs" />
+    <Compile Include="DoorService.cs" />
     <Compile Include="KeyOwnerServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartKeyService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

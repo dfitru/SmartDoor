@@ -1,4 +1,5 @@
 ﻿using SmartDoor.Models;
+using SmartDoor.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,8 @@ namespace SmartDoorManagementSys.MVC.Controllers
     [Authorize]
     public class BuildingController : Controller
     {
+        private BuildingServices _buildingServices = new BuildingServices();
+        
         // GET: Building
         public ActionResult Index()
         {

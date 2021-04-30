@@ -54,17 +54,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuildingCreate.cs" />
-    <Compile Include="BuildingListItems.cs" />
-    <Compile Include="KeyOwnerCreate.cs" />
-    <Compile Include="KeyOwnerDetail.cs" />
-    <Compile Include="KeyOwnerEdit.cs" />
-    <Compile Include="KeyOwnerListItems.cs" />
+    <Compile Include="Building\BuildingCreate.cs" />
+    <Compile Include="Building\BuildingDetail.cs" />
+    <Compile Include="Building\BuildingEdit.cs" />
+    <Compile Include="Building\BuildingListItems.cs" />
+    <Compile Include="Door\DoorDetail.cs" />
+    <Compile Include="Owner\KeyOwnerCreate.cs" />
+    <Compile Include="Owner\KeyOwnerDetail.cs" />
+    <Compile Include="Owner\KeyOwnerEdit.cs" />
+    <Compile Include="Owner\KeyOwnerListItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmartDoorCreate.cs" />
-    <Compile Include="SmartDoorItemList.cs" />
-    <Compile Include="SmartKeyCreate.cs" />
-    <Compile Include="SmartKeyListItem.cs" />
+    <Compile Include="Door\SmartDoorCreate.cs" />
+    <Compile Include="Door\SmartDoorEdit.cs" />
+    <Compile Include="Door\SmartDoorItemList.cs" />
+    <Compile Include="SmartKey\KeyDetail.cs" />
+    <Compile Include="SmartKey\KeyEdit.cs" />
+    <Compile Include="SmartKey\SmartKeyCreate.cs" />
+    <Compile Include="SmartKey\SmartKeyListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
